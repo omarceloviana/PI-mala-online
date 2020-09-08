@@ -29,9 +29,15 @@
   color: black;
 }
 
-.content {
+.content{
   display: flex;
   flex-direction: column;
+  background: url('img/background.jpg') center center/cover;
+  background: color rgba(92, 77, 66, 0.8);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .content-sobre {
@@ -40,3 +46,11 @@
   padding: 20px;
   height: auto;
 }
+
+
+
+/*padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+   100%), url("../assets/img/bg-masthead.jpg");
+  background-position: center;*/
+  
