@@ -7,16 +7,19 @@
   background-color: #f99000;
 }
 
-.title {
-  padding: 8px;
-  color: black;
+.image {
+  height: 62px;
+  width: auto;
+  padding-left: 8px;
+  text-align: center;
 }
 
 .header-menu {
   display: flex;
+  align-content: center;
 }
 
-.header-menu h4 {
+.header-menu h5 {
   padding: 8px;
   color: black;
 }
