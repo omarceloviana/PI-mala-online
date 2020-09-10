@@ -186,6 +186,7 @@ header.masthead .masthead-heading {
   display: flex;
   justify-content: center;
   padding: 15px 0;
+  margin-bottom: 32px;
 }
 
 section#contact {
@@ -254,4 +255,8 @@ section#contact form#contactForm :-ms-input-placeholder {
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   color: #ced4da;
+}
+
+.text-portfolio {
+  margin-top: 15px;
 }
