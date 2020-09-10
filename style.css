@@ -1,10 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   display: flex;
   position: fixed;
+  z-index: 1;
   width: 100%;
   justify-content: space-between;
   height: 50px;
-  background-color: #f99000;
+  background-color: rgba(92, 77, 66, 0.8);
 }
 
 .image {
@@ -29,7 +35,8 @@
   color: black;
 }
 
-.content{
+.content {
+  padding: 60px 10px 10px 10px;
   display: flex;
   flex-direction: column;
   /*background: url('img/background.jpg') center center/cover;
@@ -40,18 +47,9 @@
   background-size: cover;
 }
 
-.content-sobre {
-  margin-top: 500px;
+.content-slider {
+  display: flex;
+  justify-content: center;
   width: 90%;
   padding: 20px;
-  height: auto;
 }
-
-
-
-/*padding-top: 10rem;
-  padding-bottom: calc(10rem - 4.5rem);
-   100%), url("../assets/img/bg-masthead.jpg");
-  background-position: center;*/
-  
-  
