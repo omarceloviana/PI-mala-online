@@ -181,18 +181,17 @@ header.masthead .masthead-heading {
   background-size: cover;
 }
 
-/*<<<<<<< HEAD*/
 .content-sobre {
   margin-top: 100px;
   width: 100%;
   padding: 50px;
-
-/*.content-slider {
+}
+.content-slider {
   background-color: rgba(255, 255, 255, 0.5);
   display: flex;
   justify-content: center;
   padding: 15px 0;
-  margin-bottom: 32px;*/
+  margin-bottom: 32px;
 }
 
 section#contact {
@@ -218,7 +217,7 @@ section#contact form#contactForm .form-group textarea {
 }
 section#contact form#contactForm .form-group input.form-control {
   margin-top: 1.5rem;
-/*>>>>>>> 7009bd8d2b84ac2085df349cab5c2b06cf3430a7*/
+  /*>>>>>>> 7009bd8d2b84ac2085df349cab5c2b06cf3430a7*/
   height: auto;
 }
 section#contact form#contactForm .form-group-textarea {
