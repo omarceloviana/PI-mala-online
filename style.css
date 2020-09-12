@@ -444,8 +444,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   padding: 15px;
 }
 
-.content-produto{
+.content-produto {
   padding: 10px 110px;
   max-width: 980px;
   margin: 0 auto;
+}
+
+.card-deck {
+  margin-bottom: 16px;
 }
