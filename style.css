@@ -67,7 +67,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  text-align: left;
+  text-align: right;
   background-color: #fff;
 }
 header.masthead {
@@ -450,14 +450,14 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin: 0 auto;
 }
 
-.card-deck {
+  .card-deck {
   margin-bottom: 16px;
 }
 
 #divBusca{
   background-color:#f5f8f8;
   border:solid 1px;
-  border-radius:15px;
+  border-radius:5px;
   width:500px;
   margin: 10px;
 }
