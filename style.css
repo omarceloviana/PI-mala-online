@@ -450,7 +450,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin: 0 auto;
 }
 
-  .card-deck {
+.card-deck {
   margin-bottom: 16px;
 }
 
@@ -475,4 +475,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 #produtos{
   background-size: cover;
+}
+
+.card-body{
+  text-align: center;
 }
