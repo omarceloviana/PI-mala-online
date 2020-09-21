@@ -186,8 +186,8 @@ header.masthead .masthead-heading {
 .btn-comprarArea {
   display: flex;
   align-content: flex-end;
-  justify-content: flex-end;
-  margin: 0 20px 20px 0;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 
 .content-produto {
