@@ -1,10 +1,10 @@
 // SCROLLA A PAGINA ATÉ A SECTION CORRESPONDENTE COM UM "DELAY"
-(function($) { 
-  'use strict'; 
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+(function ($) {
+  'use strict';
+  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
     if (
       location.pathname.replace(/^\//, '') ==
-        this.pathname.replace(/^\//, '') &&
+      this.pathname.replace(/^\//, '') &&
       location.hostname == this.hostname
     ) {
       var target = $(this.hash);
@@ -23,7 +23,7 @@
   });
 
   // Fecha o menu responsivo quando um menu do navbar é clicado
-  $('.js-scroll-trigger').click(function() {
+  $('.js-scroll-trigger').click(function () {
     $('.navbar-collapse').collapse('hide');
   });
 
@@ -34,7 +34,7 @@
   });
 
   // Navbar ao scrollar
-  var navbarCollapse = function() {
+  var navbarCollapse = function () {
     if ($('#mainNav').offset().top > 100) {
       $('#mainNav').addClass('navbar-shrink');
     } else {
