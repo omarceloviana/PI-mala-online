@@ -159,6 +159,13 @@ section#about {
   padding-bottom: 12px;
 }
 
+section.content {
+  background-color: #efefef;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+}
+
 .content-sobre {
   margin-top: 100px;
   width: 100%;
@@ -166,10 +173,9 @@ section#about {
 }
 
 .content-slider {
-  background-color: #efefef;
   display: flex;
   justify-content: center;
-  padding: 15px 0;
+  padding: 0;
   margin-bottom: 8px;
 }
 
@@ -296,7 +302,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
 }
-
 
 /* TIMELINE - SOBRE */
 
