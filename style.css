@@ -1,30 +1,4 @@
 :root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #fed136;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #fed136;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #fed136;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -75,7 +49,6 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  /* background-image: url('/img/portifolio\ 1.jpg'); */
   background-image: url('/img/home-image.jpeg');
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -194,6 +167,62 @@ header.masthead .masthead-heading {
   margin-bottom: 32px;
 }
 
+.text-portfolio {
+  margin-top: 15px;
+}
+
+.about-container {
+  margin-bottom: 36px;
+}
+
+.text-about {
+  padding: 15px;
+}
+
+.card-image-maxHeight {
+  max-height: 348px;
+}
+
+.btn-comprarArea {
+  display: flex;
+  align-content: flex-end;
+  justify-content: flex-end;
+  margin: 0 20px 20px 0;
+}
+
+.content-produto {
+  padding: 10px 110px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.card-deck {
+  margin-bottom: 16px;
+}
+
+#produtos{
+  background-size: cover;
+}
+
+.text-produtos {
+  margin-bottom: 20px;
+}
+
+.iconSearch {
+  display: flex;
+  position: relative;
+  top: -26px;
+  left: 96%;
+}
+
+.button-search {
+  background:transparent;
+  border:none;
+}
+
+
+/* Section CONTATOS */
+
 section#contact {
   padding-bottom: 20px;
   background-color: #212529;
@@ -263,9 +292,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #ced4da;
 }
 
-.text-portfolio {
-  margin-top: 15px;
-}
+
+/* TIMELINE - SOBRE */
 
 .timeline {
   position: relative;
@@ -415,6 +443,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
+<<<<<<< HEAD
 }
 @media (min-width: 1200px) {
   .timeline > li {
@@ -480,3 +509,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 .card-body{
   text-align: center;
 }
+=======
+}
+>>>>>>> 75e6be8376cef543239d4425d0350bc141f128f3

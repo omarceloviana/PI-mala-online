@@ -1,29 +1,6 @@
-function handleclick() {
-  alert('Clicado!');
-}
-
-$('.nav a[href^="#"]').on('click', function(e) {
-  e.preventDefault();
-  var id = $(this).attr('href'),
-    targetOffset = $(id).offset().top;
-
-  $('html, body').animate(
-    {
-      scrollTop: targetOffset - 100
-    },
-    500
-  );
-});
-
-/*!
- * Start Bootstrap - Agency v6.0.2 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
- */
-(function($) {
-  'use strict'; // Start of use strict
-
-  // Smooth scrolling using jQuery easing
+// SCROLLA A PAGINA ATÉ A SECTION CORRESPONDENTE COM UM "DELAY"
+(function($) { 
+  'use strict'; 
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (
       location.pathname.replace(/^\//, '') ==
@@ -45,18 +22,18 @@ $('.nav a[href^="#"]').on('click', function(e) {
     }
   });
 
-  // Closes responsive menu when a scroll trigger link is clicked
+  // Fecha o menu responsivo quando um menu do navbar é clicado
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
   });
 
-  // Activate scrollspy to add active class to navbar items on scroll
+  // navegação ativa no navbar
   $('body').scrollspy({
     target: '#mainNav',
     offset: 74
   });
 
-  // Collapse Navbar
+  // Navbar ao scrollar
   var navbarCollapse = function() {
     if ($('#mainNav').offset().top > 100) {
       $('#mainNav').addClass('navbar-shrink');
@@ -64,8 +41,6 @@ $('.nav a[href^="#"]').on('click', function(e) {
       $('#mainNav').removeClass('navbar-shrink');
     }
   };
-  // Collapse now if page is not at top
   navbarCollapse();
-  // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
