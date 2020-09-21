@@ -443,4 +443,72 @@ section#contact form#contactForm :-ms-input-placeholder {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
+<<<<<<< HEAD
 }
+@media (min-width: 1200px) {
+  .timeline > li {
+    min-height: 170px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px 100px;
+  }
+  .timeline > li .timeline-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+  }
+  .timeline > li .timeline-image h4 {
+    margin-top: 40px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 100px 20px 20px;
+  }
+}
+
+.about-container {
+  margin-bottom: 36px;
+}
+
+.text-about {
+  padding: 15px;
+}
+
+.content-produto {
+  padding: 10px 110px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.card-deck {
+  margin-bottom: 16px;
+}
+
+#divBusca{
+  background-color:#f5f8f8;
+  border:solid 1px;
+  border-radius:5px;
+  width:500px;
+  margin: 10px;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:260px;
+}
+
+#produtos{
+  background-size: cover;
+}
+
+.card-body{
+  text-align: center;
+}
+=======
+}
+>>>>>>> 75e6be8376cef543239d4425d0350bc141f128f3
