@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-  <!--IMPORTAÇÃO DO BOOTSTRAP, CSS, E FONT-AWESOME (USADA PARA O ICONE DO SEARCH) -->
+  <!--IMPORTAÇÃO DO BOOTSTRAP, CSS, E FONT-AWESOME (utilizado para os icones) -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
@@ -11,6 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mala Online</title>
 </head>
+<!--ID UTILIZADO PARA OS HREFs -->
 
 <body id="page-top">
   <!-- NAVBAR / MENU -->
@@ -77,17 +78,20 @@
   <!--PRODUTOS-->
   <section id="produtos" class="content-produto">
     <div id="portfolio" class="text-center text-produtos">
+      <!--título dos produtos-->
       <h2 class="section-heading text-uppercase">Produtos</h2>
     </div>
     <br />
     <form>
       <div id="Busca" class="form-group">
+        <!-- CAMPO DE BUSCA -->
         <input type="text" class="form-control" id="input-search" placeholder="Buscar produtos">
         <a class="iconSearch">
           <button class="fa fa-search button-search"></button>
         </a>
       </div>
     </form>
+    <!-- CARDS DOS PRODUTOS -->
     <div class="card-deck">
       <div class="card">
         <img class="card-img-top card-image-maxHeight" src="img/1.jpg">
@@ -218,6 +222,7 @@
       </ul>
     </div>
   </section>
+  <!-- CONTATO - FORMULÁRIO PARA CONTATO -->
   <section class="page-section" id="contact">
     <div class="container">
       <div class="text-center text-contact">
@@ -257,11 +262,12 @@
         </div>
       </form>
     </div>
-  </section class="footer">
+  </section>
+  <!-- COMEÇO DO RODAPÉ -->
   <div class="footer-content">
-    <div class="footer"></div>
+    <!-- SOBRE NÓS - RESUMO -->
     <div class="footer">
-      <h4>Sobre nós</h4>
+      <h4>Sobre Nós</h4>
       <div>
         <span>
           A Mala Online é uma loja eletrônica <br />
@@ -274,6 +280,21 @@
       </div>
     </div>
     <div class="footer">
+      <!--CONTATO-->
+      <h4>Onde Estamos</h4>
+      <ul>
+        <div>
+          <li> <i class="fa fa-map-marker icone"></i>
+            Pelotas/RS
+          </li>
+          <li>
+            <i class="fa fa-phone-square icone"></i> (53) 97433-8143
+          </li>
+        </div>
+      </ul>
+    </div>
+    <div class="footer">
+      <!-- REDES SOCIAIS  -->
       <h4>Redes Sociais</h4>
       <ul>
         <div>
@@ -286,14 +307,11 @@
           <li><i class="fa fa-linkedin-square icone"></i>
             <a href="https://www.linkedin.com" class="noDecoration" target="_blank"> Linkedin</a>
           </li>
-          <li>
-            <i class="fa fa-phone-square icone"></i> (53) 97433-8143
-          </li>
         </div>
-      </ul>
       </ul>
     </div>
   </div>
+  <!-- RODAPÉ - COPY-RIGHT-->
   <footer class="copy-right">
     <i class="fa fa-copyright icone"> </i> Todos os direitos reservados - Mala Online - 2020
   </footer>
