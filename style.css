@@ -126,8 +126,10 @@ header.masthead .masthead-heading {
 
 .image {
   height: 74px;
-  width: auto;
+  
   margin-top: -6px;
+  height: 80%;
+  width: 100px;
 }
 
 .header-menu {
@@ -453,3 +455,4 @@ section#contact form#contactForm :-ms-input-placeholder {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
+}
