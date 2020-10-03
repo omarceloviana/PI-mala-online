@@ -458,3 +458,50 @@ section#contact form#contactForm :-ms-input-placeholder {
     padding: 0 20px 20px;
   }
 }
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #000;
+  width: 100%;
+  height: 400px;
+  color: #fff;
+  padding: 0 150px;
+}
+
+.footer {
+  text-align: left;
+  padding-top: 30px;
+}
+
+.footer ul {
+  list-style: none;
+  display: table-row;
+}
+
+.social-content a {
+  text-decoration: none;
+}
+
+.copy-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.social-content {
+  margin-bottom: 40px;
+}
+
+.icone {
+  margin-right: 4px;
+}
+
+.noDecoration,
+a:link,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}

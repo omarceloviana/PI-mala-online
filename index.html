@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <!--IMPORTAÇÃO DO BOOTSTRAP, CSS, E FONT-AWESOME (USADA PARA O INCONE DO SEARCH) -->
+  <!--IMPORTAÇÃO DO BOOTSTRAP, CSS, E FONT-AWESOME (USADA PARA O ICONE DO SEARCH) -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
@@ -10,27 +11,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mala Online</title>
 </head>
+
 <body id="page-top">
   <!-- NAVBAR / MENU -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="image" src="/img/logo.png" alt="" /></a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-          data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-          aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars ml-1"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Coleção</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#produtos">Produtos</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contato</a></li>
-          </ul>
-        </div>
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="image" src="/img/logo.png" alt="" /></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars ml-1"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Coleção</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#produtos">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contato</a></li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
   <!--CABEÇALHO - BACKGROUND IMAGE -->
   <header class="masthead">
     <div class="container">
@@ -81,7 +83,7 @@
     <br />
     <form>
       <div id="Busca" class="form-group">
-        <input type="email" class="form-control" id="input-search" placeholder="Buscar produtos">
+        <input type="text" class="form-control" id="input-search" placeholder="Buscar produtos">
         <a class="iconSearch">
           <button class="fa fa-search button-search"></button>
         </a>
@@ -221,7 +223,6 @@
     <div class="container">
       <div class="text-center text-contact">
         <h2 class="section-heading text-uppercase">Contato</h2>
-        <!-- <h3 class="section-subheading text-muted">Entre em contato conosco para tirar suas dúvidas</h3> -->
       </div>
       <form id="contactForm" name="sentMessage" novalidate="novalidate">
         <div class="row align-items-stretch mb-5">
@@ -257,7 +258,46 @@
         </div>
       </form>
     </div>
-  </section>
+  </section class="footer">
+  <div class="footer-content">
+    <div class="footer"></div>
+    <div class="footer">
+      <h4>Sobre nós</h4>
+      <div>
+        <span>
+          A Mala Online é uma loja eletrônica <br />
+          de jeans que nasceu na necessidade de<br />
+          levar qualidade e comodidade aos nossos clientes. <br /> <br />
+          Com o surgimento da pandemia do covid-19, <br />
+          vimos a oportunidade de manter <br />
+          nosso negócio ativo e ainda gerar valor para a marca. <br />
+        </span>
+      </div>
+    </div>
+    <div class="footer">
+      <h4>Redes Sociais</h4>
+      <ul>
+        <div>
+          <li> <i class="fa fa-facebook-square icone"></i>
+            <a href="https://www.facebook.com" target="_blank" class="noDecotaration">Facebook</a>
+          </li>
+          <li><i class="fa fa-twitter-square icone"></i>
+            <a href="https://www.twitter.com" target="_blank" class="noDecoration"> Twitter</a>
+          </li>
+          <li><i class="fa fa-linkedin-square icone"></i>
+            <a href="https://www.linkedin.com" class="noDecoration" target="_blank"> Linkedin</a>
+          </li>
+          <li>
+            <i class="fa fa-phone-square icone"></i> (53) 97433-8143
+          </li>
+        </div>
+      </ul>
+      </ul>
+    </div>
+  </div>
+  <footer class="copy-right">
+    <i class="fa fa-copyright icone"> </i> Todos os direitos reservados - Mala Online - 2020
+  </footer>
   <!-- IMPORTAÇÃO DO JQUERY (NECESSÁRIO PARA ALGUMAS FUNCIONALIDADES DO BOOTSTRAP) E DO ARQUIVO JAVASCRIPT -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
